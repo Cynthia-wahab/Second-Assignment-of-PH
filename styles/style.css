@@ -35,11 +35,17 @@ nav{
     align-items: center;
     margin-top: 30px;
     margin-bottom: 130px;
+    margin-left: 0;
+}
+.logo{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .menu-items{
     justify-content: space-between;
     align-items: center;
+    margin-right: 0;
 }
 
 .links{
@@ -78,12 +84,55 @@ nav{
     font-weight: 700;
      color: #E95A08;
      padding-bottom: 30px;
+}
 #always{
     color: black;
    
 }
 
+/************* mobile responsive for header section******** */
+
+@media screen and (max-width: 575px) {
+    *{
+        max-width: 100%;
+        margin: auto;
+    }
+    nav{
+        margin-bottom: 28px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .logo img {
+        width: 100%;
+    }
+
+    .links{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 100%;
+        margin: auto;
+    }
+    .banner-content{
+        padding: 20px;
+    }
+    .banner-title{
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        /* padding: auto; */
+        margin-top: 0;
+    }
+    
 }
+
+
+
 /* *******style******** */
 
 /* ****** style******** */
