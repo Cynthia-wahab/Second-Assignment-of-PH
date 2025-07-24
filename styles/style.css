@@ -202,6 +202,7 @@ nav{
 }
 #join-title{
     color: white;
+    margin-bottom: 10px;
 }
 .section-join-content input{
     width: 644px;
@@ -212,10 +213,12 @@ nav{
     width: 186px;
     height: 50px;
     border: none;
-    /* margin-left: 0;
-    padding-left: 20px; */
 }
-
+input::placeholder{
+    color: #8987A1;
+    font-size: 16px;
+    padding-left: 20px;
+}
 
 
 
