@@ -140,6 +140,37 @@ nav{
 
 }
 
+/* ***********section-Folwer & Plants lover**** */
+.flower-lover-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    gap: 60px;
+    margin: 100px auto;
+}
+.section-img {
+    width: 50%; 
+    position: relative; 
+}
+.section-content{
+    width: 50%;
+
+}
+.section-content p{
+    padding-top: 20px;
+
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 350px;
+    top: -124px;
+    background-color: transparent;
+    
+}
+
 /************* responsive for mobile device********/
 
 @media screen and (max-width: 575px) {
