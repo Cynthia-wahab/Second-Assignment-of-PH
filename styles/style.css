@@ -1,8 +1,9 @@
 *{
-    max-width: 1140px;
-    margin: 0 auto;
     background-color:  #F7F9FF;
 }
+
+}
+    
 /* font-inter */
 
 .inter-font {
@@ -18,6 +19,11 @@
 }
 
 /***********shared style**********/
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .display-flex{
     display: flex;
 }
@@ -142,12 +148,14 @@ nav{
 
 /* ***********section-Folwer & Plants lover**** */
 .flower-lover-section{
+    max-width: 1140px;
+     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
     gap: 60px;
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-top: 210px;
 }
 .section-img {
     width: 50%; 
@@ -168,9 +176,48 @@ nav{
     left: 350px;
     top: -124px;
     background-color: transparent;
-    box-shadow: #252432;
-    
+    box-shadow: #252432;    
 }
+/* ****section- Join style**** */
+.section-join{
+    max-width: 1440px;
+    height: 533px;
+    margin: 0;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-join-content{
+    background-color: transparent;
+}
+.section-join-content h3{
+    background-color: transparent;
+}
+.section-join-content form{
+    background-color: transparent;
+}
+#join-title{
+    color: white;
+}
+.section-join-content input{
+    width: 644px;
+    height: 50px;
+    border: none;
+}
+.section-join-content button{
+    width: 186px;
+    height: 50px;
+    border: none;
+    /* margin-left: 0;
+    padding-left: 20px; */
+}
+
+
+
 
 /************* responsive for mobile device********/
 
