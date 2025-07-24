@@ -182,7 +182,7 @@ nav{
 .section-join{
     max-width: 1440px;
     height: 533px;
-    margin: 0;
+    margin: auto;
     background-image: url(../assets/news-letter-bg.png);
     background-size: cover;
     text-align: center;
@@ -190,6 +190,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .section-join-content{
     background-color: transparent;
@@ -218,6 +219,51 @@ input::placeholder{
     color: #8987A1;
     font-size: 16px;
     padding-left: 20px;
+}
+
+
+/* ********footer style************* */
+footer{
+    /* margin-top: 100px; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* .footer-left-side, .footer-center, .footer-right-side{
+    width: 30%;
+} */
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 32px 20px; */
+    row-gap: 32px;
+    column-gap: 70px;
+}
+
+
+.footer-center a{
+    color: #8987A1;
+    font-size: 15px; 
+    text-decoration: none; 
+}
+.footer-center li {
+    list-style: none;
+}
+
+.footer-left-side{
+    font-weight: 400;
+    color: #8987A1;
+    font-size: 22px;
+}
+.footer-left-side p{
+    margin-top: 4px;
+}
+
+.footer-right-side img{
+    padding-right: 20px;  
+}
+.twitter{
+    padding-bottom: 8px;
 }
 
 
