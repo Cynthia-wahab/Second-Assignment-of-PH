@@ -20,7 +20,7 @@
      <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="max-width">
+    <header class="max-width hidden">
 <!-- ------navbar ---- -->
         <nav class="display-flex ">
             <img class="logo" src="./assets/logo.png" alt="faugei flower shop">
@@ -49,7 +49,7 @@
     </header>
     <main class="">
 <!-- Section- Our Plants -->
-        <section class="section-plants max-width">
+        <section class="section-plants max-width hidden">
             <div class="plant-content">
                 <h3 class="section-title sub-title noto-serif-font"><span class="highlighter">Our</span> Plants</h3>
                 <p class="light-gray inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -127,11 +127,11 @@
         </section>
 <!-- ----section-flower lover---- -->
         <section class="flower-lover-section max-width">
-            <div class="section-img">
+            <div class="section-img hidden">
                 <img class="badge" src="./assets/trusted-badge.png" alt="">
                 <img src="./assets/flower-store.png" alt="">
             </div>
-            <div class="section-content max-width">
+            <div class="section-content max-width hidden">
                 <h3 class="sub-title noto-serif-font">Flower & Plants <br>Lover</h3>
                 <ul class="light-gray inter-font">
                     <li><p>Brighten up birthdays, anniversaries, and everyday moments with our hand-arranged flower bouquets. Each arrangement is crafted with love and attention, making it the perfect gift or home centerpiece.</p></li>
@@ -144,26 +144,34 @@
         </section>
 
 <!-- sectiono-Latest Deal  -->
-        <section class="section-latest-deal max-width hidden">
+        <section class="section-latest-deal max-width">
             <div class="section-latest-content">
                 <h3 class="sub-title noto-serif-font"><span id="latest">Latest</span>  Deals</h3>
                 <p class="content-description inter-font light-gray">Take advantage of our latest deals and bring home stunning flowers and plants at unbeatable prices. Our special offers make it easy to fill your life with beauty—without breaking the bank.</p>
             </div>
-            <div class="deals-card">
-                <div class="deals-card-1 noto-serif-font">
-                    <h4>60% Off | Bloom Plant</h4>
-                    <a id="shop-now" href="#">Shop Now</a>
-                    <hr>    
+            <div class="deals-container">
+                <div class="deals-card-together">
+                    <div class="deals-card-1">
+                        <img src="./assets/deal-bloom.png" alt="">
+                        <div class="deals-text-1">
+                            <h4>60% Off | Bloom Plant</h4>
+                            <a href="#">Shop Now</a>   
+                        </div>
+                    </div>
+                    <div class="deals-card-2">
+                        <img src="./assets/deal-ana.png" alt="">
+                        <div class="deals-text-2">
+                            <h4>30% Off | Ana  Plant</h4>
+                            <a href="#">Shop Now</a>
+                        </div>   
+                    </div>
                 </div>
-                <div class="deals-card-2 noto-serif-font">
-                    <h4>30% Off | Ana  Plant</h4>
-                     <a id="shop-now" href="#">Shop Now</a>
-                     <hr>    
-                </div>
-                <div class="deals-card-3 noto-serif-font">
-                    <h4>25% Off | Zabo Plant</h4>
-                    <a id="shop-now" href="#">Shop Now</a>
-                    <hr>  
+                <div class="deals-card-3">
+                    <img src="./assets/deal-zabo.png" alt="">
+                    <div class="deals-text-3">
+                        <h4>25% Off | Zabo Plant</h4>
+                        <a id="shop-now" href="#">Shop Now</a> 
+                    </div>
                 </div>
             </div>
 
@@ -171,8 +179,8 @@
 
         </section>
 <!-- section-Join -->
-        <section class="section-join sub-title">
-            <div class="section-join-content" >
+        <section class="hidden section-join sub-title">
+            <div class="section-join-content hidden" >
                 <h3 id="join-title">Join the colorful Bunch</h3>
                 <form>
                 <input type="email" placeholder="Write email" required><button class="" type="submit">Subscribe</button>
